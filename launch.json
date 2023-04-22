@@ -47,15 +47,15 @@
             }
         },
         {
-            "name": "php8.1Launch Built-in web server",
+            "name": "php8.2Launch Built-in web server",
             "type": "php",
             "request": "launch",
-            "runtimeExecutable": "php8.1",
+            "runtimeExecutable": "php8.2",
             "runtimeArgs": [
                 // "-dxdebug.mode=debug",
                 // "-dxdebug.start_with_request=yes",
                 "-S",
-                "localhost:8001",
+                "localhost:8000",
                 "-t",
                 "public"
             ],
